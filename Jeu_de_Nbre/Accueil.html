@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Assure la compatibilité avec les versions d'Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Paramètre la mise en page pour qu'elle s'adapte à la taille de l'écran -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page affiché dans l'onglet du navigateur -->
+    <title>Jeu De Calcul</title>
+    <!-- Inclusion du fichier CSS pour le style du jeu -->
+    <link rel="stylesheet" href="style/Accueil.css">
+</head>
+<body>
+    <!-- Paragraphe pour afficher des messages dynamiques -->
+    <p class="Message"></p>
+    <section>
+        <!-- Section pour afficher le calcul -->
+        <div class="calcul">
+            <!-- Premier nombre du calcul -->
+            <h1 class="nbr1">9</h1>
+            <!-- Opérateur du calcul -->
+            <h1 class="op">+</h1>
+            <!-- Deuxième nombre du calcul -->
+            <h1 class="nbr2">5</h1>
+        </div>
+        
+        <h2> Donner votre réponse </h2>
+        <!-- Champ de saisie pour la réponse de l'utilisateur -->
+        <input type="number" name="" class="result"><br>
+        <!-- Bouton pour valider la réponse de l'utilisateur -->
+        <input type="submit" onclick="validation()">
+    </section>
+
+    <!-- Paragraphe pour afficher le score -->
+    <p class="score"></p>
+    <!-- Lien pour recommencer le jeu -->
+    <a href="Accueil.html" class="link">Recommencer</a>
+    
+</body>
+<!-- Inclusion du fichier JavaScript pour la logique du jeu -->
+<script src="script.js"></script>
+
+</html>
